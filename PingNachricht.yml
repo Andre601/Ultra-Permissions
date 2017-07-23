@@ -1,0 +1,77 @@
+#
+# DONT CHANGE ANYTHING HERE IF YOU DONT NOW WHAT YOU ARE DOING.
+# CHANGES WILL BE UNDONE ON RESTART.
+#
+
+######## CREDIT
+#
+# Credit for this goes to 'Mr_JesseZ' for making this file!
+# His Server:  play.Kingdom-Craft.net
+#
+
+######## You see something wrong here?
+#
+# Contact 'itechmaster' on Spigot or Dircord!
+# Contect 'Mr_JesseZ' on Spigot or Discord!
+#
+
+######### Discord Server
+#
+# https://discord.gg/2s9PsRv
+#
+
+######### Permissions
+#
+# In a Permission you need to change:
+#  '.' to a '_'
+#  '_' to a '-' 
+#  '-' to a '~'
+#
+# Example:
+#
+# Permission
+# Example.Test-DIAMOND_SHOVEL
+#
+# New Permission
+# Example_Test~DIAMOND-SHOVEL
+#
+
+####################################################################
+#Example: #Here you put the name of the plugin how it's called in the chat/console when you used the command /pl or /plugin.
+####################################################################
+#  Player/Staff/Permissions: #This tilte can be added so you can create multiple category like one category for all staff permission and another category for the players, so when you open the GUI for this permission you can see multple categorys, that makes the GUI much cleaner and easier to understand. When you want to add permission to player you can easily select the player category and when you want to add a permission to your staff you select the staff category. (If you don't understand what to do, check the permission file Essentials.)
+#    Example_Command_Test: #Here you place the permission and change the '.' to a '_'. When you don't do this the plugin wil not recognize the permission!
+#      description: #Here you place the description of the permission. If there is no description you can always add: 'Allow the player to use the command Test' (Replace 'Test' to the command the permission is for.)
+#      commands: #Under Commands you can add all command the player can use when he is having this permission. Always add a '/' infront of the command. If the permission don't has a command like a bypass permission you can leave it blanc.
+#        - '/test'
+#        - '/Test'
+#        - '/T'
+
+####### Structure
+#
+#plugin:
+#  MainCategory:
+#    Command_Hello:
+#      description: Hello
+#      commands:
+#        - '/hello'
+#    Command_World:
+#      description: World
+#      commands:
+#        - '/world'
+#
+
+#########
+#
+# Good luck, if you still don't understand what to do or if you want to check if your on a good way ask TechXcrafter or Mr_JesseZ
+#
+
+###################################################################
+PingNachricht:
+###################################################################
+  Staff:
+    pingnachricht_main:
+      description: 'Gives access to all /pingnachricht [/pn] commands'
+      commands:
+        - '/pingnachricht reload'
+        - '/pingnachricht setcounter <args>'
