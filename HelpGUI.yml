@@ -70,11 +70,19 @@
 HelpGUI:
 ###################################################################
   Staff:
-    helpgui_admin:
+    helpgui_*:
       description: 'Gives access to all /helpgui [/hgui] commands'
       commands:
         - '/helpgui help'
         - '/helpgui reload'
+    helpgui_staff:
+      description: 'Permission used for displaying Staff-Members in the GUI'
+      commands:
+        - ''
+    helpgui_reload:
+      description: 'Lets you reload the plugin'
+      commands:
+        - '/hgui reload'
   Player:
     helpgui_disablehelp:
       description: 'Disables the command /help [/h] for players/groups'
