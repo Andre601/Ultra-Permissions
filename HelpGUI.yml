@@ -80,9 +80,13 @@ HelpGUI:
       commands:
         - ''
     helpgui_reload:
-      description: 'Lets you reload the plugin'
+      description: 'Permission for /hgui reload'
       commands:
         - '/hgui reload'
+    helpgui_help:
+      description: 'Permission for /hgui help'
+      commands:
+        - '/hgui help'
   Player:
     helpgui_disablehelp:
       description: 'Disables the command /help [/h] for players/groups'
